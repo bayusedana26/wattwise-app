@@ -2,19 +2,47 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# WattWise ⚡️
 
-This contains everything you need to run your app locally.
+**WattWise** adalah aplikasi web manajemen listrik pintar yang membantu Anda memantau, menghitung, dan memprediksi biaya penggunaan listrik harian dan bulanan berdasarkan perangkat elektronik di rumah Anda.
 
-View your app in AI Studio: https://ai.studio/apps/96ff099e-5c3e-4304-8115-70451d1e9f22
+Aplikasi ini berjalan 100% di browser sisi klien dengan antarmuka modern yang cepat dan ringan.
 
-## Run Locally
+## Fitur Utama ✨
+- **Kalkulator Biaya Listrik:** Hitung estimasi tagihan bulanan berdasarkan perangkat yang Anda gunakan.
+- **Dukungan Tarif PLN Terbaru:** Pilihan lengkap golongan tarif PLN mulai dari Subsidi, Non-Subsidi, hingga Industri.
+- **Prediksi Usia Token:** Masukkan sisa token Anda, dan aplikasi akan memprediksi sisa hari / jam sebelum listrik Anda habis.
+- **Analisis Penggunaan Cerdas:** Menyoroti perangkat yang memakan daya paling besar untuk penghematan maksimal.
+- **Penyimpanan Lokal:** Seluruh data peralatan dan konfigurasi disimpan dengan aman secara lokal di browser Anda.
 
-**Prerequisites:**  Node.js
+## Prasyarat 📋
+- [Node.js](https://nodejs.org/) (versi 18 ke atas disarankan)
 
+## Cara Menjalankan Secara Lokal 🚀
+1. Kloning repositori ini:
+   ```bash
+   git clone https://github.com/bayusedana26/wattwise-app.git
+   ```
+2. Masuk ke folder proyek:
+   ```bash
+   cd wattwise-app
+   ```
+3. Instal dependencies:
+   ```bash
+   npm install
+   ```
+4. Jalankan aplikasi di mode pengembangan:
+   ```bash
+   npm run dev
+   ```
+5. Buka `http://localhost:3000` di browser Anda!
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Membangun untuk Produksi 📦
+Untuk membangun aplikasi siap pakai (Production Build):
+```bash
+npm run build
+```
+Hasil build akan berada di dalam folder `dist` dan siap di-*deploy* ke platform seperti Vercel, Netlify, atau Firebase Hosting.
+
+---
+*Dibangun dengan React, Vite, dan TailwindCSS.*
