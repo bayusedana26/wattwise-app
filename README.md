@@ -10,3 +10,5 @@ Aplikasi ini berjalan 100% di browser sisi klien dengan antarmuka modern yang ce
 - **Prediksi Usia Token:** Masukkan sisa token Anda, dan aplikasi akan memprediksi sisa hari / jam sebelum listrik Anda habis.
 - **Analisis Penggunaan Cerdas:** Menyoroti perangkat yang memakan daya paling besar untuk penghematan maksimal.
 - **Penyimpanan Lokal:** Seluruh data peralatan dan konfigurasi disimpan dengan aman secara lokal di browser Anda.
+
+Visit me: https://wattwise-app.vercel.app/
